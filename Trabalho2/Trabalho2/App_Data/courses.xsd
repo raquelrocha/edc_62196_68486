@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cursos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="curso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="guid" type="xs:unsignedShort" />
+              <xs:element name="codigo" type="xs:string" />
+              <xs:element name="nome" type="xs:string" />
+              <xs:element name="grau" type="xs:string" />
+              <xs:element name="ciclo" type="xs:unsignedByte" />
+              <xs:element name="departamentos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element maxOccurs="unbounded" name="departamento" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="areascientificas">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element maxOccurs="unbounded" name="areacientifica" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="areasformacao">
+                <xs:complexType>
+                  <xs:sequence minOccurs="0">
+                    <xs:element name="areaformacao" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="regime" type="xs:string" />
+              <xs:element name="local" type="xs:string" />
+              <xs:element name="provas">
+                <xs:complexType mixed="true">
+                  <xs:sequence minOccurs="0">
+                    <xs:choice maxOccurs="unbounded">
+                      <xs:element maxOccurs="unbounded" name="br" />
+                      <xs:element name="strong" type="xs:string" />
+                      <xs:element name="ul">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element maxOccurs="unbounded" name="li" type="xs:string" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="m23" type="xs:string" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<curso>
+	<guid>63</guid>
+	<nome><![CDATA[Tecnologias da Informação]]></nome>
+	<imagem><![CDATA[http://acesso.ua.pt/upload/imagens/c_63.jpg]]></imagem>
+	<codigo>3012/8016</codigo>
+	<grau><![CDATA[Licenciatura]]></grau>
+	<ciclo>1</ciclo>
+	<duracao>3 anos letivos / 6 Semestres (180 ECTS)</duracao>
+	<ano_inicio>2007/2008</ano_inicio>
+	<regime><![CDATA[diurno / laboral]]></regime>
+	<horario><![CDATA[]]></horario>
+	<propinas><![CDATA[1063,47€/ano (estudantes nacionais)]]></propinas>
+	<subsistema><![CDATA[Politécnico]]></subsistema>
+	<areas>
+		 <area><![CDATA[Engenharia Geográfica]]></area>
+		 <area><![CDATA[Informática]]></area>
+	</areas>
+	<director>
+		<nome>Prof. Doutor Ciro Alexandre Domingues Martins</nome>
+		<email>ciro.martins@ua.pt</email>
+	</director>
+	<departamentos>
+		<departamento>
+			<nome>Escola Superior de Tecnologia e Gestão de Águeda</nome>
+			<url>http://www.ua.pt/estga</url>
+		</departamento>
+	</departamentos>
+	<medias>
+		<fase1>104,5</fase1>
+		<fase2>0</fase2>
+		<fase3>0</fase3>
+	</medias>
+	<vagas>
+		<fase1>20</fase1>
+		<fase2>5</fase2>
+		<fase3>0</fase3>
+	</vagas>
+	<provas><![CDATA[16 Matemática <br /><br /><strong>O cálculo da nota de acesso considera:</strong><ul><li>65% da nota do ensino secundário</li><li>35% da nota da prova de ingresso</li></ul>]]></provas>
+	<ano_info><![CDATA[2016/2017]]></ano_info>
+	<saidas_profissionais><![CDATA[<ul>
+<li>Web Developer / Web Designer</li>
+</ul>
+<ul>
+<li>Programador / Analista de Software</li>
+</ul>
+<ul>
+<li>Projetista e Administrador de Redes e Sistemas Inform&aacute;ticos</li>
+</ul>
+<p></p>]]></saidas_profissionais>
+	<objectivos><![CDATA[<p>O curso de Tecnologias da Informa&ccedil;&atilde;o oferece uma forma&ccedil;&atilde;o de base na &aacute;rea da Inform&aacute;tica, complementada com forma&ccedil;&atilde;o espec&iacute;fica&nbsp;em:</p>
+<ul>
+<li>Desenvolvimento Web</li>
+<li>Telem&aacute;tica</li>
+<li>Geoinforma&ccedil;&atilde;o</li>
+</ul>
+<p><strong>projetos e est&aacute;gio integrados</strong></p>
+<p>Durante o curso os alunos participam em projetos desenvolvidos em colabora&ccedil;&atilde;o com empresas, realizando um est&aacute;gio final de curso em ambiente empresarial. Com o ensino baseado em projetos, os alunos desenvolvem compet&ecirc;ncias t&eacute;cnicas e outras aptid&otilde;es importantes para um excelente desempenho profissional, como o trabalho em equipa, a lideran&ccedil;a, a capacidade de comunica&ccedil;&atilde;o e o esp&iacute;rito empreendedor.</p>
+<p><strong>pr&eacute;mios escolares</strong></p>
+<p>O pr&eacute;mio escolar ESTGA-InovaRia &eacute; atribu&iacute;do ao estudante que termina a Licenciatura com a classifica&ccedil;&atilde;o m&eacute;dia final mais elevada.</p>
+<p></p>
+<p></p>]]></objectivos>
+	<observacoes><![CDATA[Curso com preferência regional]]></observacoes>
+	<testemunho><![CDATA[]]></testemunho>
+	<pre_requisitos><![CDATA[]]></pre_requisitos>
+	<local><![CDATA[ESTGA, Águeda]]></local>
+	<urlmaisinfo><![CDATA[http://]]></urlmaisinfo>
+	<urlcandidaturas><![CDATA[http://]]></urlcandidaturas>
+	<urlmobilidade><![CDATA[http://]]></urlmobilidade>
+	<m23>
+		<provas><![CDATA[matemática
+<a href="http://www.ua.pt/ensino/PageText.aspx?id=15132" target=_blank>programa</a>]]></provas>
+		<vagas><![CDATA[]]></vagas>
+		<urlinfo><![CDATA[http://www.ua.pt/m23]]></urlinfo>
+		<observacoes><![CDATA[]]></observacoes>
+	</m23>
+	<posgraduacoes>
+		<periodo><![CDATA[]]></periodo>
+		<corpo_docente><![CDATA[]]></corpo_docente>
+		<destinatarios><![CDATA[]]></destinatarios>
+		<vagas><![CDATA[]]></vagas>
+		<vagas_obs><![CDATA[]]></vagas_obs>
+		<urlmobilidade><![CDATA[]]></urlmobilidade>
+		<ano_info><![CDATA[]]></ano_info>
+		<edital><![CDATA[]]></edital>
+		<ata><![CDATA[]]></ata>
+	</posgraduacoes>
+</curso>
+

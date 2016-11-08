@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<properties>
+  <property type="house" id="87634">
+    <value cost="28000" currency="$" />
+    <address city="Aveiro" street="Rua da Pêga" port="2" />
+    <owners>
+      <owner taxId="123123112">
+        <purchase date="01-10-20015" />
+        <name firstname="Rafael" lastname="Almeida" />
+      </owner>
+      <owner taxId="253199123">
+        <purchase date="01-10-2016" />
+        <name firstname="Raquel" lastname="Rocha" />
+      </owner>
+    </owners>
+  </property>
+  <property type="house" id="32515">
+    <value cost="75200" currency="€" />
+    <address city="Porto" street="Largo dos Clérigos" port="21" />
+    <owners>
+      <owner taxId="253199121">
+        <purchase date="09-10-2010" />
+        <name firstname="Francisco" lastname="Pinto" />
+      </owner>
+      <owner taxId="334512152">
+        <purchase date="23-08-2014" />
+        <name firstname="Rui" lastname="Almeida" />
+      </owner>
+    </owners>
+  </property>
+  <property type="apartment" id="55555">
+    <value cost="72500" currency="€" />
+    <address city="Porto" street="Rua D.Dinis" port="23" />
+    <owners>
+      <owner taxId="68468684">
+        <purchase date="25-06-2015"/>
+        <name firstname="Bruno" lastname="Alexandre" />
+      </owner>
+      <owner taxId="334512152">
+        <purchase date="06-09-2015" />
+        <name firstname="Rui" lastname="Almeida" />
+      </owner>
+    </owners>
+  </property>
+  <property type="house" id="48466">
+    <value cost="320000" currency="€" />
+    <address city="Aveiro" street="Rua Nova" port="70" />
+    <owners>
+      <owner taxId="253199123">
+        <purchase date="02-04-2005" />
+        <name firstname="Raquel" lastname="Rocha" />
+      </owner>
+      <owner taxId="234675819">
+        <purchase date="03-02-2015" />
+        <name firstname="João " lastname="Silva" />
+      </owner>
+    </owners>
+  </property>
+  <property type="house" id="79552">
+    <value cost="56000" currency="€" />
+    <address city="Vale de Cambra" street="Rua das Flores" port="3" />
+    <owners>
+      <owner taxId="684686841">
+        <purchase date="20-02-2014" />
+        <name firstname="Joana" lastname="Costa" />
+      </owner>
+    </owners>
+  </property>
+  <property type="house" id="98465">
+    <value cost="220000" currency="€" />
+    <address city="Aveiro" street="Rua Lourenço Peixinho" port="22" />
+    <owners>
+      <owner taxId="123123112">
+        <purchase date="04-05-2004" />
+        <name firstname="Rafael" lastname="Almeida" />
+      </owner>
+      <owner taxId="684686841">
+        <purchase date="03-02-2015" />
+        <name firstname="Joana" lastname="Costa" />
+      </owner>
+      <owner taxId="253199123">
+        <purchase date="29-10-2016" />
+        <name firstname="Raquel " lastname="Rocha" />
+      </owner>
+    </owners>
+  </property>
+  <property type="apartment" id="123111">
+    <value cost="352650" currency="€" />
+    <address city="S.João" street="Rua da praça" port="2" />
+  </property>
+  <property type="house" id="115145">
+    <value cost="522650" currency="€" />
+    <address city="Oiã" street="Rua D.João" port="1" />
+  </property>
+</properties>

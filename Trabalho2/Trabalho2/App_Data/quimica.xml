@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<curso>
+	<guid>43</guid>
+	<nome><![CDATA[Química]]></nome>
+	<imagem><![CDATA[http://acesso.ua.pt/upload/imagens/c_43.jpg]]></imagem>
+	<codigo>0300/A009</codigo>
+	<grau><![CDATA[Licenciatura]]></grau>
+	<ciclo>1</ciclo>
+	<duracao>3 anos letivos / 6 Semestres (180 ECTS)</duracao>
+	<ano_inicio>2006-2007</ano_inicio>
+	<regime><![CDATA[diurno / laboral]]></regime>
+	<horario><![CDATA[]]></horario>
+	<propinas><![CDATA[1063,47€/ano (estudantes nacionais)]]></propinas>
+	<subsistema><![CDATA[Universitário]]></subsistema>
+	<areas>
+		 <area><![CDATA[Química]]></area>
+	</areas>
+	<director>
+		<nome>Prof. Doutor Armando Jorge Domingues Silvestre</nome>
+		<email>armsil@ua.pt</email>
+	</director>
+	<departamentos>
+		<departamento>
+			<nome>Departamento de Química</nome>
+			<url>http://www.ua.pt/dq</url>
+		</departamento>
+	</departamentos>
+	<medias>
+		<fase1>112,4</fase1>
+		<fase2>0</fase2>
+		<fase3>0</fase3>
+	</medias>
+	<vagas>
+		<fase1>0</fase1>
+		<fase2>0</fase2>
+		<fase3>0</fase3>
+	</vagas>
+	<provas><![CDATA[07 Física e Química
+19 Matemática A<br /><br /><strong>O cálculo da nota de acesso considera:</strong><ul><li>60% da nota do ensino secundário</li><li>40% da nota da prova de ingresso</li></ul>]]></provas>
+	<ano_info><![CDATA[2016/2017]]></ano_info>
+	<saidas_profissionais><![CDATA[<p>A Licenciatura em Qu&iacute;mica da UA prepara profissionais com uma forma&ccedil;&atilde;o s&oacute;lida, que lhes permite o acesso ao mercado de emprego em fun&ccedil;&otilde;es na &aacute;rea da qu&iacute;mica:</p><ul class="unIndentedList"><li>Ind&uacute;stria qu&iacute;mica, ou &aacute;reas relacionadas;</li></ul><ul class="unIndentedList"><li>Laborat&oacute;rios de an&aacute;lises e de controlo de qualidade (nas &aacute;reas industrial, alimentar, ambiental, etc).</li></ul><ul class="unIndentedList"><li>Empresas de servi&ccedil;os: consultadoria; assessoria t&eacute;cnico-comercial, marketing. </li></ul><p>A s&oacute;lida forma&ccedil;&atilde;o de base adquirida permitir&aacute; ainda a estes profissionais aceder ao segundo ciclo de forma&ccedil;&atilde;o (Mestrado), de forma a aprofundar as suas compet&ecirc;ncias em &aacute;reas cient&iacute;ficas afins (eventualmente relacionadas com a sua forma&ccedil;&atilde;o Minor) de forma a valorizar o seu perfil profissional e/ou responder &agrave;s exig&ecirc;ncias que ao longo da sua carreira lhe s&atilde;o colocadas pelo mercado de trabalho. </p><p style="margin-left: 18pt; line-height: 150%; text-align: justify" class="MsoNormal">&nbsp;</p>]]></saidas_profissionais>
+	<objectivos><![CDATA[<p>Um licenciado em Qu&iacute;mica pela Universidade de Aveiro deve ter atingido ao longo da sua forma&ccedil;&atilde;o os seguintes objetivos de forma&ccedil;&atilde;o:</p>
+<p><strong>Objetivos espec&iacute;ficos:</strong></p>
+<p>- Possuir uma forma&ccedil;&atilde;o de base s&oacute;lida em &aacute;reas nucleares da qu&iacute;mica, nomeadamente qu&iacute;mica inorg&acirc;nica, qu&iacute;mica org&acirc;nica, qu&iacute;mica-f&iacute;sica e qu&iacute;mica anal&iacute;tica, e as bases necess&aacute;rias em matem&aacute;tica, f&iacute;sica e inform&aacute;tica;</p>
+<p>- Possuir forma&ccedil;&atilde;o b&aacute;sica em diversas &aacute;reas mais espec&iacute;ficas da qu&iacute;mica, tais como qu&iacute;mica macromolecular, bioqu&iacute;mica e qu&iacute;mica de materiais;</p>
+<p>- Possuir (opcionalmente) forma&ccedil;&atilde;o ao n&iacute;vel de <em>Minor</em> em: F&iacute;sica ou Engenharia Qu&iacute;mica ou Gest&atilde;o ou Ci&ecirc;ncias do Ambiente ou Ci&ecirc;ncias dos Materiais;</p>
+<p>- Ter desenvolvido compet&ecirc;ncias pr&aacute;ticas em qu&iacute;mica no &acirc;mbito de disciplinas laboratoriais de qu&iacute;mica inorg&acirc;nica, qu&iacute;mica org&acirc;nica, qu&iacute;mica-f&iacute;sica e qu&iacute;mica anal&iacute;tica, envolvendo trabalho individual ou de grupo.</p>
+<p><strong>Objetivos gen&eacute;ricos:</strong></p>
+<p>- Ter desenvolvido a capacidade de recolher e interpretar informa&ccedil;&atilde;o cient&iacute;fica relevante e produzir julgamentos a partir de uma reflex&atilde;o baseada em aspetos cient&iacute;ficos e &eacute;ticos;</p>
+<p>- Ter desenvolvido a capacidade de transmitir informa&ccedil;&atilde;o, ideias, problemas e solu&ccedil;&otilde;es a audi&ecirc;ncias informadas;</p>
+<p>- Ter atingido um n&iacute;vel de conhecimentos e compet&ecirc;ncias que lhe permita o acesso a forma&ccedil;&atilde;o e/ou diplomas de segundo ciclo com um grau adequado de autonomia;</p>
+<p>- Ter desenvolvido as compet&ecirc;ncias que lhe permitam o acesso ao mercado de emprego em fun&ccedil;&otilde;es de t&eacute;cnico na &aacute;rea da qu&iacute;mica, incluindo a ind&uacute;stria qu&iacute;mica, ou em &aacute;reas relacionadas.</p>
+<p>Informa&ccedil;&atilde;o complementar:</p>
+<p><a href="http://www.ua.pt/ReadObject.aspx?obj=34536" target="_blank">Despacho n.&ordm; 19332/2008</a></p>
+<p><a href="http://www.ua.pt/ReadObject.aspx?obj=34541" target="_blank">Declara&ccedil;&atilde;o de Rectifica&ccedil;&atilde;o n.&ordm; 505/2011</a></p>
+<p><a href="http://www.ua.pt/dqua/readobject.aspx?obj=32831" target="_blank">Eurobachelor</a></p>
+<p><a href="http://www.ua.pt/dqua/readobject.aspx?obj=32832" target="_blank">Certificado</a></p>
+<p>&nbsp;</p>
+<p><iframe width="450" height="253" src="https://www.youtube.com/embed/zAwngqRBKYI" frameborder="0" allowfullscreen="allowfullscreen"></iframe></p>]]></objectivos>
+	<observacoes><![CDATA[]]></observacoes>
+	<testemunho><![CDATA[]]></testemunho>
+	<pre_requisitos><![CDATA[]]></pre_requisitos>
+	<local><![CDATA[Campus Universitário de Santiago, Aveiro]]></local>
+	<urlmaisinfo><![CDATA[http://]]></urlmaisinfo>
+	<urlcandidaturas><![CDATA[http://]]></urlcandidaturas>
+	<urlmobilidade><![CDATA[http://]]></urlmobilidade>
+	<m23>
+		<provas><![CDATA[química
+<a href="http://www.ua.pt/ensino/PageText.aspx?id=15132" target=_blank>programa</a>]]></provas>
+		<vagas><![CDATA[]]></vagas>
+		<urlinfo><![CDATA[http://www.ua.pt/m23/]]></urlinfo>
+		<observacoes><![CDATA[]]></observacoes>
+	</m23>
+	<posgraduacoes>
+		<periodo><![CDATA[]]></periodo>
+		<corpo_docente><![CDATA[]]></corpo_docente>
+		<destinatarios><![CDATA[]]></destinatarios>
+		<vagas><![CDATA[]]></vagas>
+		<vagas_obs><![CDATA[]]></vagas_obs>
+		<urlmobilidade><![CDATA[]]></urlmobilidade>
+		<ano_info><![CDATA[]]></ano_info>
+		<edital><![CDATA[]]></edital>
+		<ata><![CDATA[]]></ata>
+	</posgraduacoes>
+</curso>
+

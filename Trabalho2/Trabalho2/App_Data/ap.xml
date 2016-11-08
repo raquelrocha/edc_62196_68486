@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<curso>
+	<guid>54</guid>
+	<nome><![CDATA[Administração Pública]]></nome>
+	<imagem><![CDATA[http://acesso.ua.pt/upload/imagens/c_54.jpg]]></imagem>
+	<codigo>0300/9002</codigo>
+	<grau><![CDATA[Licenciatura]]></grau>
+	<ciclo>1</ciclo>
+	<duracao>3 anos letivos / 6 Semestres (180 ECTS)</duracao>
+	<ano_inicio></ano_inicio>
+	<regime><![CDATA[diurno / laboral]]></regime>
+	<horario><![CDATA[]]></horario>
+	<propinas><![CDATA[1063,47€/ano (estudantes nacionais)]]></propinas>
+	<subsistema><![CDATA[Universitário]]></subsistema>
+	<areas>
+		 <area><![CDATA[Ciências Sociais]]></area>
+	</areas>
+	<director>
+		<nome>Mestre Luís Miguel Simões Lucas Pires</nome>
+		<email>mlucaspires@ua.pt</email>
+	</director>
+	<departamentos>
+		<departamento>
+			<nome>Departamento de Ciências Sociais, Políticas e do Território</nome>
+			<url>http://www.ua.pt/csjp</url>
+		</departamento>
+	</departamentos>
+	<medias>
+		<fase1>131,8</fase1>
+		<fase2>0</fase2>
+		<fase3>0</fase3>
+	</medias>
+	<vagas>
+		<fase1>55</fase1>
+		<fase2>6</fase2>
+		<fase3>1</fase3>
+	</vagas>
+	<provas><![CDATA[Uma das seguintes provas:<br />
+17 Matemática Aplicada às Ciências Sociais<br />
+16 Matemática<br />
+18 Português<br />
+<br /><br /><strong>O cálculo da nota de acesso considera:</strong><ul><li>60% da nota do ensino secundário</li><li>40% da nota da prova de ingresso</li></ul>]]></provas>
+	<ano_info><![CDATA[2016/2017]]></ano_info>
+	<saidas_profissionais><![CDATA[<p>Os licenciados em Administra&ccedil;&atilde;o P&uacute;blica poder&atilde;o exercer atividades num amplo mercado de trabalho, que inclui n&atilde;o apenas os &oacute;rg&atilde;os da Administra&ccedil;&atilde;o P&uacute;blica, nacionais, regionais ou locais, mas igualmente em organiza&ccedil;&otilde;es aut&oacute;nomas e empresas p&uacute;blicas e privadas.A conclus&atilde;o da Licenciatura far-se-&aacute; atrav&eacute;s de tr&ecirc;s percursos poss&iacute;veis, que se consubstanciam na op&ccedil;&atilde;o por um dos tr&ecirc;s menores existentes e cuja especificidade em termos de sa&iacute;das profissionais, pode apresentar a seguinte forma:<br /><br /><strong>Administra&ccedil;&atilde;o P&uacute;blica e Pol&iacute;ticas P&uacute;blicas:</strong><br /><br />Os licenciados em Administra&ccedil;&atilde;o P&uacute;blica e Pol&iacute;ticas P&uacute;blicas estar&atilde;o especialmente preparados para dominar os instrumentos indispens&aacute;veis a uma correta defini&ccedil;&atilde;o de pol&iacute;ticas p&uacute;blicas e gest&atilde;o, planeamento, acompanhamento e avalia&ccedil;&atilde;o de a&ccedil;&otilde;es.<br /><br /><strong>Administra&ccedil;&atilde;o P&uacute;blica e Ci&ecirc;ncia Pol&iacute;tica:</strong><br /><br />Os licenciados em Administra&ccedil;&atilde;o P&uacute;blica e Ci&ecirc;ncia Pol&iacute;tica apresentam especiais compet&ecirc;ncias de a&ccedil;&atilde;o profissional em institui&ccedil;&otilde;es nacionais e internacionais do setor p&uacute;blico, quasi-p&uacute;blico (como organiza&ccedil;&otilde;es n&atilde;o governamentais) e privado (nomeadamente zonas de intera&ccedil;&atilde;o entre o p&uacute;blico e o privado), especialmente nas &aacute;reas relacionadas com processos de defini&ccedil;&atilde;o e implementa&ccedil;&atilde;o de pol&iacute;ticas p&uacute;blicas e estruturas institucionais e de governance.<br /><br /><strong>Administra&ccedil;&atilde;o P&uacute;blica, Ordenamento do Territ&oacute;rio e Urbanismo:</strong><br /><br />Os licenciados em Administra&ccedil;&atilde;o P&uacute;blica, Ordenamento do Territ&oacute;rio e Urbanismo, encontram-se particularmente preparados para desenvolver atividades em organismos, p&uacute;blicos ou privados, cuja a&ccedil;&atilde;o se traduza em ocupa&ccedil;&atilde;o e interven&ccedil;&atilde;o do e no territ&oacute;rio.</p>]]></saidas_profissionais>
+	<objectivos><![CDATA[<p>O modelo desta licenciatura em Administra&ccedil;&atilde;o P&uacute;blica apresenta uma base curricular comum, complementada por troncos opcionais (aqui denominados de Menores) nas &aacute;reas de pol&iacute;ticas p&uacute;blicas, ci&ecirc;ncia pol&iacute;tica e planeamento regional e urbano. O curso tem por objetivo principal a forma&ccedil;&atilde;o de profissionais capazes de responder &agrave;s necessidades e desafios que se colocam atualmente &agrave; Administra&ccedil;&atilde;o P&uacute;blica nas sociedades modernas. &Eacute; tamb&eacute;m objetivo desta licenciatura preparar licenciados com um conhecimento multi e transdisciplinar da realidade portuguesa, bem como dos contextos internacionais em que a mesma se insere, particularmente a Uni&atilde;o Europeia e os Pa&iacute;ses de L&iacute;ngua Portuguesa.</p>
+<p>De igual modo, este curso visa a forma&ccedil;&atilde;o de t&eacute;cnicos com compet&ecirc;ncias para uma inser&ccedil;&atilde;o adequada nas estruturas regionais e aut&aacute;rquicas, assim como em organiza&ccedil;&otilde;es que tenham com a Administra&ccedil;&atilde;o P&uacute;blica, aos seus v&aacute;rios n&iacute;veis, rela&ccedil;&otilde;es de grande interdepend&ecirc;ncia.</p>
+<p><strong>Objetivos do Menor em Pol&iacute;ticas P&uacute;blicas:</strong></p>
+<p>A forma&ccedil;&atilde;o espec&iacute;fica em Administra&ccedil;&atilde;o P&uacute;blica e Pol&iacute;ticas P&uacute;blicas visa a prepara&ccedil;&atilde;o de profissionais com capacidade para implementar as pol&iacute;ticas setoriais, quer ao n&iacute;vel da administra&ccedil;&atilde;o central, quer regional, quer local.</p>
+<p><strong>Objetivos do Menor em Ci&ecirc;ncia Pol&iacute;tica:<br /></strong><br />A forma&ccedil;&atilde;o espec&iacute;fica em Administra&ccedil;&atilde;o P&uacute;blica e Ci&ecirc;ncias Pol&iacute;ticas visa a prepara&ccedil;&atilde;o de profissionais com compet&ecirc;ncias para intervir de forma mais adequada e inovadora n&atilde;o s&oacute; nos v&aacute;rios setores pol&iacute;ticos e administrativos da sociedade portuguesa e internacional, mas tamb&eacute;m noutras esferas da vida social, pol&iacute;tica e econ&oacute;mica.<br /><strong><br />Objetivos do Menor em Ordenamento do Territ&oacute;rio e Urbanismo</strong>:</p>
+<p>A forma&ccedil;&atilde;o espec&iacute;fica em Administra&ccedil;&atilde;o P&uacute;blica e Ordenamento do Territ&oacute;rio e Urbanismo tem por objetivo a prepara&ccedil;&atilde;o de profissionais, em que a cria&ccedil;&atilde;o e a consolida&ccedil;&atilde;o da capacidade de leitura e de an&aacute;lise cr&iacute;tica do territ&oacute;rio, da paisagem e do ambiente, tendo em conta a sua diversidade, sejam ferramentas adequadas &agrave; sua inser&ccedil;&atilde;o nos v&aacute;rios setores que lidam com as quest&otilde;es do ordenamento do territ&oacute;rio.</p>]]></objectivos>
+	<observacoes><![CDATA[]]></observacoes>
+	<testemunho><![CDATA[]]></testemunho>
+	<pre_requisitos><![CDATA[]]></pre_requisitos>
+	<local><![CDATA[Campus Universitário de Santiago, Aveiro]]></local>
+	<urlmaisinfo><![CDATA[paco.ua.pt/horariosanos/horariosnovoanolectivo.asp (horário)]]></urlmaisinfo>
+	<urlcandidaturas><![CDATA[http://]]></urlcandidaturas>
+	<urlmobilidade><![CDATA[http://]]></urlmobilidade>
+	<m23>
+		<provas><![CDATA[português <a href="http://www.ua.pt/ensino/PageText.aspx?id=15132" target=_blank>programa</a>]]></provas>
+		<vagas><![CDATA[]]></vagas>
+		<urlinfo><![CDATA[http://www.ua.pt/m23]]></urlinfo>
+		<observacoes><![CDATA[]]></observacoes>
+	</m23>
+	<posgraduacoes>
+		<periodo><![CDATA[]]></periodo>
+		<corpo_docente><![CDATA[]]></corpo_docente>
+		<destinatarios><![CDATA[]]></destinatarios>
+		<vagas><![CDATA[]]></vagas>
+		<vagas_obs><![CDATA[]]></vagas_obs>
+		<urlmobilidade><![CDATA[]]></urlmobilidade>
+		<ano_info><![CDATA[]]></ano_info>
+		<edital><![CDATA[]]></edital>
+		<ata><![CDATA[]]></ata>
+	</posgraduacoes>
+</curso>
+
