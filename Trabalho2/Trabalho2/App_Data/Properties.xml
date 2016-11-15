@@ -33,7 +33,7 @@
     <address city="Porto" street="Rua D.Dinis" port="23" />
     <owners>
       <owner taxId="68468684">
-        <purchase date="25-06-2015"/>
+        <purchase date="25-06-2015" />
         <name firstname="Bruno" lastname="Alexandre" />
       </owner>
       <owner taxId="334512152">
