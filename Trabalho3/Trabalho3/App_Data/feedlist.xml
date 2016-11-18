@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feeds>
+   <feed name="Invalid rss to test warning message" url="http://feeds.feedburner.com/yolo-you-tried123" />
+  <feed name="Expresso" url="http://feeds.feedburner.com/expresso-geral" />
+  <feed name="Publico" url="http://feeds.feedburner.com/PublicoRSS" />
+  <feed name="Exame Informática" url="http://feeds.feedburner.com/Exameinformatica-mercados" />
+  <feed name="Jornal de Notícias" url="http://feeds.jn.pt/JN-ULTIMAS" />
+</feeds>
