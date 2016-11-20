@@ -10,7 +10,7 @@
                    DataTextField="name" DataValueField="name" AppendDataBoundItems="true" OnSelectedIndexChanged="Feeds_SelectedIndexChanged">
              </asp:DropDownList>
         </div>
-        <div class="col-lg-3 col-md-3 col-xs-4 text-right"">
+        <div class="col-lg-3 col-md-3 col-xs-4 text-right">
             <a href="managefeeds" class="btn btn-primary"><i class="fa fa-rss"></i> Manage Feeds</a>
         </div>
     </div>

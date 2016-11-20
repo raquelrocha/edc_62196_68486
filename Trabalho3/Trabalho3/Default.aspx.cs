@@ -12,7 +12,10 @@ namespace Trabalho3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (warning.Visible)
+                data.Visible = false;
+            else
+                data.Visible = true;
         }
 
         protected void Feeds_SelectedIndexChanged(object sender, EventArgs e)
