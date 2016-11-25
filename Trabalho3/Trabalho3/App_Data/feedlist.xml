@@ -1,8 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <feeds>
-  <feed name="Expresso" url="http://feeds.feedburner.com/expresso-geral" />
   <feed name="Invalid Rss Feed" url="http://feeds.feedburner.com/invalid_duh" />
+  <feed name="Expresso" url="http://feeds.feedburner.com/expresso-geral" />
   <feed name="Publico" url="http://feeds.feedburner.com/PublicoRSS" />
   <feed name="Exame Informática" url="http://feeds.feedburner.com/Exameinformatica-mercados" />
   <feed name="Jornal de Notícias" url="http://feeds.jn.pt/JN-ULTIMAS" />
+  <feed name="New york times" url="http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml" />
+  <feed name="Washington Post - Politics" url="http://feeds.washingtonpost.com/rss/politics" />
 </feeds>

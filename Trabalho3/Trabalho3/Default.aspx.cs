@@ -14,8 +14,6 @@ namespace Trabalho3
         {
             if (warning.Visible)
                 data.Visible = false;
-            else
-                data.Visible = true;
         }
 
         protected void Feeds_SelectedIndexChanged(object sender, EventArgs e)
