@@ -37,7 +37,7 @@
                     <Fields>
                         <asp:BoundField DataField="title" HeaderText="Title" SortExpression="title" />
                         <asp:BoundField DataField="link" HeaderText="Link" SortExpression="link" />
-                        <asp:BoundField DataField="description" HeaderText="Description" SortExpression="description" />
+                        <asp:BoundField DataField="description" HeaderText="Description" SortExpression="description"/>
                         <asp:BoundField DataField="language" HeaderText="Language" SortExpression="language" />
                         <asp:BoundField DataField="managingEditor" HeaderText="ManagingEditor" SortExpression="managingEditor" />
                         <asp:BoundField DataField="webMaster" HeaderText="WebMaster" SortExpression="webMaster" />

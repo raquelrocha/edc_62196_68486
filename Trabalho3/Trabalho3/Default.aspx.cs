@@ -45,14 +45,18 @@ namespace Trabalho3
                 Xml1.XPathNavigator = feed.CreateNavigator();
                 Xml1.DataBind();
 
+                DetailsView1.DataBind();
                 for (int i = 0; i < DetailsView1.Rows.Count; i++)
                 {
                     if (DetailsView1.Rows[i].Cells[1].Text == "" ||
                         DetailsView1.Rows[i].Cells[1].Text == "&nbsp;")
+                    {
                         DetailsView1.Rows[i].Visible = false;
+                    }
                     else
                         DetailsView1.Rows[i].Visible = true;
                 }
+                
             }
             catch (Exception)
             {
