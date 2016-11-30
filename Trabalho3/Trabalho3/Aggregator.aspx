@@ -9,6 +9,9 @@
         <asp:CheckBoxList ID="CheckBoxList1" runat="server" DataSourceID="XmlDataSourceFeedReader" DataTextField="name" DataValueField="url" AutoPostBack="true" CssClass="" OnSelectedIndexChanged="CheckBoxList1_SelectedIndexChanged"></asp:CheckBoxList>
     </div>
 
+    <div class="checkbox checkboxlist col-sm-10">
+        <asp:CheckBoxList ID="categorias" runat="server" DataSourceID="XmlDataSourceDynamic" DataTextField="category" DataValueField="url" AutoPostBack="true"></asp:CheckBoxList>
+    </div>
     <br/>
     <asp:ListView ID="ListView1" runat="server">
         <ItemTemplate>
@@ -25,6 +28,7 @@
          </ItemTemplate>
     </asp:ListView>
     </div>
+    <asp:XmlDataSource ID="XmlDataSourceDynamic" runat="server" DataFile="~/App_Data/feedlist.xml" TransformFile="~/App_Data/feed.xslt" XPath="/feed"></asp:XmlDataSource>
     <asp:XmlDataSource ID="XmlDataSource1" TransformFile="~/App_Data/news.xslt" runat="server" EnableCaching="false" XPath="/rss/item"></asp:XmlDataSource>
     <asp:XmlDataSource ID="XmlDataSourceFeedReader" runat="server" DataFile="~/App_Data/feedlist.xml" EnableCaching="False"></asp:XmlDataSource>
 </asp:Content>

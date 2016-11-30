@@ -14,7 +14,7 @@ namespace Trabalho3
         int countNews;
         protected void Page_Load(object sender, EventArgs e)
         {
-            }
+        }
 
         protected string DisplayFeedItem(SyndicationItem item)  // linked to listview item template 
         {
