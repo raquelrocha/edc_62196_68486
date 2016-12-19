@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="GetProductsXML">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductsXMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetProductsXMLResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetProductsJSON">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetProductsJSONResponse">
+        <s:complexType />
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetProductsXMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductsXML" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsXMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductsXMLResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:GetProductsJSON" />
+  </wsdl:message>
+  <wsdl:message name="GetProductsJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:GetProductsJSONResponse" />
+  </wsdl:message>
+  <wsdl:portType name="GetDumpSoap">
+    <wsdl:operation name="GetProductsXML">
+      <wsdl:input message="tns:GetProductsXMLSoapIn" />
+      <wsdl:output message="tns:GetProductsXMLSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsJSON">
+      <wsdl:input message="tns:GetProductsJSONSoapIn" />
+      <wsdl:output message="tns:GetProductsJSONSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="GetDumpSoap" type="tns:GetDumpSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetProductsXML">
+      <soap:operation soapAction="http://tempuri.org/GetProductsXML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsJSON">
+      <soap:operation soapAction="http://tempuri.org/GetProductsJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="GetDumpSoap12" type="tns:GetDumpSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetProductsXML">
+      <soap12:operation soapAction="http://tempuri.org/GetProductsXML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetProductsJSON">
+      <soap12:operation soapAction="http://tempuri.org/GetProductsJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GetDump">
+    <wsdl:port name="GetDumpSoap" binding="tns:GetDumpSoap">
+      <soap:address location="http://localhost:1825/WebServices/GetDump.asmx" />
+    </wsdl:port>
+    <wsdl:port name="GetDumpSoap12" binding="tns:GetDumpSoap12">
+      <soap12:address location="http://localhost:1825/WebServices/GetDump.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

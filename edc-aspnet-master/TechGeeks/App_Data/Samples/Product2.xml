@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Product>
+  <Name>AMD FX 8350</Name>
+  <Category>CPU</Category>
+  <Price>169.00</Price>
+  <PointsLimit>10</PointsLimit>
+  <Short>AMD FX 8350 (4.0 GHz, up to 4.2GHz with Turbo)</Short>
+  <LaunchDate>2015-04-12</LaunchDate>
+  <Description>
+    No description found
+  </Description>
+</Product>

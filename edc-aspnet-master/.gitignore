@@ -1,0 +1,16 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/EDC2015-Trabalho1/EDC2015-Trabalho1/obj/Debug
+/EDC2015-Trabalho1/packages
+/EDC2015-Trabalho2/bin
+/EDC2015-Trabalho2/obj/Debug
+/packages
+/EDC2015-Trabalho3/App_Data
+/EDC2015-Trabalho3/bin
+/EDC2015-Trabalho3/obj/Debug
+*.user
+/TechGeeks/bin
+/TechGeeks/obj/Debug

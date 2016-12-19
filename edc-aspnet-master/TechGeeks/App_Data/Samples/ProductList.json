@@ -1,0 +1,24 @@
+﻿{
+  "List": {
+    "Product": [
+      {
+        "Name": "AMD PC 2100",
+        "Category": "Laptops",
+        "Price": "999",
+        "PointsLimit": "5",
+        "Short": "New laptop generation 2015",
+        "LaunchDate": "2015-10-12",
+        "Description": ".."
+      },
+      {
+        "Name": "AMD PC 2050",
+        "Category": "Laptops",
+        "Price": "999",
+        "PointsLimit": "5",
+        "Short": "New laptop generation 2015",
+        "LaunchDate": "2015-10-12",
+        "Description": ".."
+      }
+    ]
+  }
+}
