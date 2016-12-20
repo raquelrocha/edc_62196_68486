@@ -18,8 +18,8 @@
          <asp:BoundField DataField="Quantity" HeaderText="Quantity" SortExpression="Quantity" />
          <asp:TemplateField HeaderText="Feedback">
             <ItemTemplate>
-               <a href="#" data-toggle="modal" data-target='<%# String.Format("#modal{0}", Eval("Product_id")) %>'><i class="fa fa-star"></i>&nbsp;Submit</a>
-               &nbsp;<a runat="server" href='<%# String.Format("~/Shop/Reviews/{0}", Eval("Product_id")) %>' data-toggle="modal"><i class="fa fa-comment"></i>&nbsp;View</a>
+               <a href="#" data-toggle="modal" data-target='<%# String.Format("#modal{0}", Eval("Product_id")) %>'><i class="fa fa-star"></i></a>
+               &nbsp;<a runat="server" href='<%# String.Format("~/Shop/Reviews/{0}", Eval("Product_id")) %>' data-toggle="modal"><i class="fa fa-comment"></i></a>
                <div class="modal fade" id='<%# String.Format("modal{0}", Eval("Product_id")) %>' tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
                  <div class="modal-dialog" role="document">
                    <div class="modal-content">
@@ -48,7 +48,7 @@
       </EmptyDataTemplate>
       
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
    </asp:GridView>
    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="sp_getUserTransactions" SelectCommandType="StoredProcedure">
       <SelectParameters>

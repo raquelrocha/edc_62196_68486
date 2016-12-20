@@ -36,18 +36,5 @@ namespace TechGeeks
             Xml1.DataBind();
 
         }
-
-        protected void SearchFilterFeed_Click(object sender, EventArgs e)
-        {
-            string filter = filterTextBox.Text;
-            if (filter != null)
-            {
-                WebServices.Feeds service = new WebServices.Feeds();
-                XmlDocument feed = service.GetAggregatedFeedsWithFilter(filter);
-
-                Xml1.XPathNavigator = feed.CreateNavigator();
-                Xml1.DataBind();
-            }
-        }
     }
 }

@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="Products Management" MasterPageFile="~/Site.Master" Language="C#" AutoEventWireup="true" CodeBehind="ManageProducts.aspx.cs" Inherits="TechGeeks.Admin.ManageProducts" %>
 
-<%@ Register Assembly="TechGeeks" Namespace="TechGeeks.Models" TagPrefix="cc1" %>
+<%@ Register Assembly="LojaCT" Namespace="TechGeeks.Models" TagPrefix="cc1" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
    <h4 class="text-center">Select the product category below</h4>
@@ -67,17 +67,6 @@
                <asp:Label ID="Label4" runat="server" Text='<%# Bind("Category") %>'></asp:Label>
             </ItemTemplate>
          </asp:TemplateField>
-         <asp:TemplateField HeaderText="% Points" SortExpression="PointsLimit">
-            <EditItemTemplate>
-               <asp:TextBox ID="TextBox3" runat="server" Text='<%# Bind("PointsLimit") %>'></asp:TextBox>
-            </EditItemTemplate>
-            <FooterTemplate>
-               <asp:TextBox ID="newPointsLimit" CssClass="form-control input-sm" runat="server"></asp:TextBox>
-            </FooterTemplate>
-            <ItemTemplate>
-               <asp:Label ID="Label5" runat="server" Text='<%# Bind("PointsLimit") %>'></asp:Label>
-            </ItemTemplate>
-         </asp:TemplateField>
          <asp:TemplateField HeaderText="Price" SortExpression="Price">
             <EditItemTemplate>
                <asp:TextBox ID="TextBox4" runat="server" Text='<%# Bind("Price") %>'></asp:TextBox>
@@ -98,17 +87,6 @@
             </FooterTemplate>
             <ItemTemplate>
                <asp:Label ID="Label7" runat="server" Text='<%# Bind("Short") %>'></asp:Label>
-            </ItemTemplate>
-         </asp:TemplateField>
-         <asp:TemplateField HeaderText="Launch Date" SortExpression="LaunchDate">
-            <EditItemTemplate>
-               <asp:TextBox ID="TextBox6" runat="server" Text='<%# Bind("LaunchDate") %>'></asp:TextBox>
-            </EditItemTemplate>
-            <FooterTemplate>
-               <asp:TextBox ID="newLaunchDate" CssClass="form-control input-sm" runat="server"></asp:TextBox>
-            </FooterTemplate>
-            <ItemTemplate>
-               <asp:Label ID="Label8" runat="server" Text='<%# Bind("LaunchDate") %>'></asp:Label>
             </ItemTemplate>
          </asp:TemplateField>
          <asp:TemplateField HeaderText="Commands">
@@ -164,69 +142,8 @@
       </Columns>
       
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
    </cc1:FlexibleGridView >
-
-   <div class="row">
-      <div class="col-md-6">
-         <h4>Insert products into the database using XML/JSON</h4>
-         <asp:FileUpload CssClass="btn btn-flat btn-default" id="FileUploadControl" runat="server" />
-         <asp:CheckBox runat="server" ID="cb_dump" />
-         <span>Database full dump (It will clear all products before upload)</span>
-         <br/><br />
-         
-         <div class="text-center">
-            <asp:DropDownList CssClass="form-control custom-form" runat="server" ID="uploadType">
-               <asp:ListItem Value="xml">XML</asp:ListItem>
-               <asp:ListItem Value="json">JSON</asp:ListItem>
-            </asp:DropDownList>
-            <asp:Button runat="server" CssClass="btn btn-flat btn-primary" id="UploadButton" text="Upload File" OnClick="UploadButton_Click" /><br />
-            <br /><asp:Label runat="server" CssClass="text-bold h4" id="Label2" text="Status: " /><br />
-            <asp:Label runat="server" id="StatusLabel" text="Waiting for file" />
-         </div>
-      </div>
-      <div class="col-md-6">
-         <h4>Products dump export</h4>
-         Type:&nbsp;
-         <asp:DropDownList CssClass="form-control custom-form" runat="server" ID="exportType">
-            <asp:ListItem Value="xml">XML</asp:ListItem>
-            <asp:ListItem Value="json">JSON</asp:ListItem>
-         </asp:DropDownList>
-         <asp:Button runat="server" ID="exportBtn" Text="Export Data"
-            OnClick="exportBtn_Click" CssClass="btn btn-flat btn-primary">
-         </asp:Button><br/>
-         <div class="row">
-            <div class="col-md-6">
-               <b>Example XML: </b>
-               <code><br />&lt;List&gt;<br />
-                     &nbsp;&nbsp;&nbsp;&lt;Product&gt;<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;Name&gt;..&lt;/Name&gt;<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br />
-                     &nbsp;&nbsp;&nbsp;&lt;/Product&gt;<br />
-                     &nbsp;&nbsp;&nbsp;&lt;Product&gt;<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br />
-                     &nbsp;&nbsp;&nbsp;&lt;/Product&gt;<br />
-                  &lt;/List&gt;<br />
-               </code>
-            </div>
-            <div class="col-md-6">
-               <b>Example JSON:</b>
-               <code><br />
-                  {<br />
-                     &nbsp;&nbsp;&nbsp;"List": {<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Product": [{<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Name':'...',<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;...<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},{<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;..<br />
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}]<br />
-                     &nbsp;&nbsp;&nbsp;}<br />
-                  }
-               </code>
-            </div>
-         </div>
-      </div>
-   </div>
    <asp:SqlDataSource ID="SqlDataSourceProducts" runat="server"
       ConnectionString="<%$ ConnectionStrings:DefaultConnection %>"
       SelectCommand="sp_getProducts" SelectCommandType="StoredProcedure"

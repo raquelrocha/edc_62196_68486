@@ -1,6 +1,6 @@
 ﻿<%@ Page Title="RSS Feeds Management" MasterPageFile="~/Site.Master" Language="C#" AutoEventWireup="true" CodeBehind="ManageFeeds.aspx.cs" Inherits="TechGeeks.Admin.ManageFeeds" %>
 
-<%@ Register Assembly="TechGeeks" Namespace="TechGeeks.Models" TagPrefix="cc1" %>
+<%@ Register Assembly="LojaCT" Namespace="TechGeeks.Models" TagPrefix="cc1" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -49,7 +49,7 @@
       </Columns>
       
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
    </cc1:FlexibleGridView>
 
     <asp:XmlDataSource EnableCaching="false" ID="XmlDataSourceFeeds" runat="server" XPath="/Feeds/Feed">

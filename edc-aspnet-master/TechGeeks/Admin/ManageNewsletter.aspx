@@ -31,7 +31,7 @@
             </EmptyDataTemplate>
             
             <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-            <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+            <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
          </asp:GridView>
       </div>
    </div>

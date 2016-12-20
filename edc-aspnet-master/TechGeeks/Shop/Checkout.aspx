@@ -20,18 +20,13 @@
 
       </Columns>
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
       <EmptyDataTemplate>
          <h4 class="text-center">You haven't selected anything to buy yet.</h4>
       </EmptyDataTemplate>
    </asp:GridView>
    <div class="text-center" runat="server" id="paymentMethod">
-      <h4>Choose the method to pay with</h4>
-      <asp:CheckBox ID="usePoints" runat="server"/> Use my points to buy partial of this transaction<br /><small>1 point = 1€ and it is limited to the PointsLimit of each product</small>
-      <br /><br />
-      <asp:LinkButton runat="server" OnClick="Unnamed_Click" CssClass="btn btn-flat btn-default"><i class="fa fa-paypal"></i> Paypal</asp:LinkButton>
-      <asp:LinkButton runat="server" OnClick="Unnamed_Click" CssClass="btn btn-flat btn-default"><i class="fa fa-google-wallet"></i> Google Wallet</asp:LinkButton>
-      <asp:LinkButton runat="server" OnClick="Unnamed_Click" CssClass="btn btn-flat btn-default"><i class="fa fa-credit-card"></i> Debit Card</asp:LinkButton>
+      <asp:LinkButton runat="server" OnClick="Unnamed_Click" CssClass="btn btn-flat btn-default"><i class="fa fa-cart-arrow-down"></i> CheckOut</asp:LinkButton>
    </div>
    <asp:XmlDataSource ID="XmlDataSourceShoppingCart" EnableCaching="False" runat="server" XPath="/Data/ShoppingCart/Product"></asp:XmlDataSource>
 </asp:Content>

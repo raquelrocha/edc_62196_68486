@@ -8,7 +8,7 @@
          <asp:DetailsView ID="DetailsView1" runat="server" AutoGenerateRows="False" GridLines="None"
             DataKeyNames="Id" DataSourceID="SqlDataSource1" CssClass="table table-condensed"
             OnItemUpdating="DetailsView1_ItemUpdating">
-            <FieldHeaderStyle BackColor="IndianRed" ForeColor="White" HorizontalAlign="Left" Width="170px" />
+            <FieldHeaderStyle BackColor="#3c8dbc" ForeColor="White" HorizontalAlign="Left" Width="170px" />
             <Fields>
                <asp:BoundField DataField="Email" HeaderText="Email" SortExpression="Email" ReadOnly="true" />
                <asp:TemplateField HeaderText="FullName" SortExpression="FullName">

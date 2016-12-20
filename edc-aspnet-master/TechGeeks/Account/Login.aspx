@@ -41,10 +41,6 @@
                </div>
             </asp:Panel>
          </section>
-         <section id="socialLoginForm" class="text-center well" >
-            <h4>Login using external provider</h4>
-            <uc:OpenAuthProviders runat="server" ID="OpenAuthLogin" />
-         </section>
       </div>
 
       <div class="col-md-6">

@@ -39,8 +39,8 @@ namespace TechGeeks.WebServices
                 "<language>en-gb</language>" +
                 "<pubDate>" + DateTime.Now + "</pubDate>" +
                 "<description>Latest aggregated news from TechGeeks</description>" +
-                   "<managingEditor>diogo@ua.pt</managingEditor>" +
-                "<webMaster> diogo@ua.pt(Webmaster) </webMaster>" + xmlString + "</channel>";
+                   "<managingEditor>edc@ua.pt</managingEditor>" +
+                "<webMaster> edc@ua.pt(Webmaster) </webMaster>" + xmlString + "</channel>";
 
             xmlString = "<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" " +
                 "xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\">" +
@@ -144,8 +144,8 @@ namespace TechGeeks.WebServices
                 "<language>en-gb</language>" +
                 "<pubDate>" + DateTime.Now + "</pubDate>" +
                 "<description>Latest aggregated news from TechGeeks</description>" +
-                   "<managingEditor>diogo@ua.pt</managingEditor>" +
-                "<webMaster> diogo@ua.pt(Webmaster) </webMaster>" + xmlString + "</channel>";
+                   "<managingEditor>edc@ua.pt</managingEditor>" +
+                "<webMaster> edc@ua.pt(Webmaster) </webMaster>" + xmlString + "</channel>";
 
             xmlString = "<rss xmlns:content=\"http://purl.org/rss/1.0/modules/content/\" " +
                 "xmlns:dc=\"http://purl.org/dc/elements/1.1/\" version=\"2.0\">" +

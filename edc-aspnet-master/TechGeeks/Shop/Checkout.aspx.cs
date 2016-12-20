@@ -97,7 +97,7 @@ namespace TechGeeks.Shop
             {
                 cmd.CommandType = CommandType.StoredProcedure;
                 cmd.Parameters.AddWithValue("@userid", Context.User.Identity.GetUserId());
-                cmd.Parameters.AddWithValue("@usePoints", usePoints.Checked);
+                cmd.Parameters.AddWithValue("@usePoints", false);
                 con.Open();
                 cmd.ExecuteNonQuery();
             }

@@ -17,7 +17,7 @@
          </asp:TemplateField>
       </Columns>
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
       <EmptyDataTemplate>
          <h3 class="text-center">There is no reviews yet, you can always be the first :)</h3>
       </EmptyDataTemplate>

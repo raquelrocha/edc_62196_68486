@@ -7,11 +7,6 @@
          <asp:BoundField DataField="Name" HeaderText="Name" SortExpression="Name" />
          <asp:BoundField DataField="Price" HeaderText="Price" SortExpression="Price" />
          <asp:BoundField DataField="Short" HeaderText="Short" SortExpression="Short" />
-         <asp:TemplateField HeaderText="LaunchDate" SortExpression="LaunchDate">
-            <ItemTemplate>
-               <asp:Label ID="Label8" runat="server" Text='<%# Eval("LaunchDate").ToString().Substring(0,10) %>'></asp:Label>
-            </ItemTemplate>
-         </asp:TemplateField>
          <asp:TemplateField HeaderText="Commands">
             <ItemTemplate>
                <a href="#" data-toggle="modal" data-target="#modal<%# Eval("Id") %>"><i class="fa fa-plus-circle"></i></a>
@@ -40,7 +35,7 @@
          <h3 class="text-center">There is no products available for this category.</h3>
       </EmptyDataTemplate>
       <PagerStyle HorizontalAlign="Center" CssClass="pagination-ys" />
-      <HeaderStyle BackColor="IndianRed" ForeColor="White" />
+      <HeaderStyle BackColor="#3c8dbc" ForeColor="White" />
    </asp:GridView>
    <asp:SqlDataSource ID="SqlDataSource1" runat="server" ConnectionString="<%$ ConnectionStrings:DefaultConnection %>" SelectCommand="sp_getProducts" SelectCommandType="StoredProcedure">
       <SelectParameters>

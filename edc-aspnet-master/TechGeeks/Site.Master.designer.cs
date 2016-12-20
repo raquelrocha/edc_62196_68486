@@ -7,8 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace TechGeeks
-{
+namespace TechGeeks {
     
     
     public partial class SiteMaster {
@@ -30,24 +29,6 @@ namespace TechGeeks
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.LoginView topNavbar;
-        
-        /// <summary>
-        /// emailSubscriber control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlInputText emailSubscriber;
-        
-        /// <summary>
-        /// subscribeBtn control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.LinkButton subscribeBtn;
         
         /// <summary>
         /// MainContent control.
