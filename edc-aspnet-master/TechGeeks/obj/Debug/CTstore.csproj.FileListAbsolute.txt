@@ -1,0 +1,4 @@
+\\Mac\Home\Desktop\edc-aspnet-master\TechGeeks\obj\Debug\CTstore.csprojResolveAssemblyReference.cache
+\\Mac\Home\Desktop\edc-aspnet-master\TechGeeks\obj\Debug\TechGeeks.Migrations.InitialCreate.resources
+\\Mac\Home\Desktop\edc-aspnet-master\TechGeeks\obj\Debug\TechGeeks.Migrations.UserFields.resources
+\\Mac\Home\Desktop\edc-aspnet-master\TechGeeks\obj\Debug\CTstore.csproj.GenerateResource.Cache
